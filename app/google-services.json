@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73796665989",
+    "firebase_url": "https://crudcontactos.firebaseio.com",
+    "project_id": "crudcontactos",
+    "storage_bucket": "crudcontactos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73796665989:android:c15277df93d1f5a7",
+        "android_client_info": {
+          "package_name": "com.example.tony.ejemplocudfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73796665989-ih48kfu32anoo4ebre1eh9q7bclg47gm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tony.ejemplocudfirebase",
+            "certificate_hash": "c665d98409c82466173210225e0270e4840aa5de"
+          }
+        },
+        {
+          "client_id": "73796665989-a97afk0c7iq2soiq9hv70a4v716dlapr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVe63ilpFuOz946y232Yfi-sIrQ8WPQiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73796665989-a97afk0c7iq2soiq9hv70a4v716dlapr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

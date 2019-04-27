@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.VistaAlumnos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/et_consulta_dni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="INGRESE SU DNI"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/boton_consulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESTADO ACADEMICO" />
+
+    <ListView
+        android:id="@+id/listaVistaAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

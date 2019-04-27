@@ -1,45 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Views.ZorrosAqui">
+    tools:context=".Views.VistaProfesor">
 
     <!-- TODO: Update blank fragment layout -->
-
     <EditText
-        android:id="@+id/txt_informe"
+        android:id="@+id/dni_alumno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="UBICACION"
-        android:inputType="textPersonName" />
+        android:hint="DNI ALUMNO"
+        android:paddingTop="15dp" />
 
-    <ImageView
-        android:id="@+id/imagenCaptura"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:src="@tools:sample/avatars" />
-
-    <Button
-        android:id="@+id/bFotos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tomar Foto" />
 
     <EditText
-        android:id="@+id/txt_Descripcion"
+        android:id="@+id/campo_asignatura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="DESCRIPCION"
+        android:hint="ASIGNATURA"
+        android:paddingTop="15dp" />
+
+
+    <EditText
+        android:id="@+id/campo_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NOTA"
+        android:paddingTop="15dp" />
+
+
+    <EditText
+        android:id="@+id/txt_trimestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TRIMESTRE"
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/bGuardar"
+        android:id="@+id/bSubirNota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GUARDAR" />
+        android:text="SUBIR NOTA" />
+
+    <Button
+        android:id="@+id/bListarAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTADO DE ALUMNOS" />
+
+
 </LinearLayout>
